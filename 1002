@@ -1,0 +1,48 @@
+{
+ "Version": "1002",
+ "ReleaseNotes": "Tester",
+ "Servers": [
+  {
+   "Name": "Test-sg1",
+   "FLAG": "sg",
+   "ServerIP": "csg08.microsshws.host",
+   "Slowchave": "",
+   "Nameserver": "",
+   "Slowdns": "",
+   "ServerPort": "22",
+   "SSLPort": "443",
+   "ProxyIP": "csg08.microsshws.host",
+   "ProxyPort": "443",
+   "ServerUser": "microssh-sabitt",
+   "ServerPass": "sabit",
+   "Payload": "GET PATCH:\/\/www.globe.com.ph HTTP\/1.1[crlf]Host: csg08.microsshws.host[crlf]Upgrade: t[crlf]Cache-Control: max-age=3600[crlf][crlf][split]Merge \/ HTTP\/1.1[crlf]Host: csg08.microsshws.host[crlf]Upgrade: websocket[crlf][crlf]",
+   "SNI": "www.globe.com.ph",
+   "isSSL": false,
+   "isPayloadSSL": true,
+   "isInject": false,
+   "isDirect": false,
+   "isSlow": false
+  },
+  {
+   "Name": "Test-sg2",
+   "FLAG": "sg",
+   "ServerIP": "csg09.microsshws.host",
+   "Slowchave": "",
+   "Nameserver": "",
+   "Slowdns": "",
+   "ServerPort": "22",
+   "SSLPort": "443",
+   "ProxyIP": "csg09.microsshws.host",
+   "ProxyPort": "443",
+   "ServerUser": "microssh-sabittt",
+   "ServerPass": "sabit",
+   "Payload": "GET PATCH:\/\/www.globe.com.ph HTTP\/1.1[crlf]Host: csg09.microsshws.host[crlf]Upgrade: t[crlf]Cache-Control: max-age=3600[crlf][crlf][split]Merge \/ HTTP\/1.1[crlf]Host: csg09.microsshws.host[crlf]Upgrade: websocket[crlf][crlf]",
+   "SNI": "www.globe.com.ph",
+   "isSSL": false,
+   "isPayloadSSL": true,
+   "isInject": false,
+   "isDirect": false,
+   "isSlow": false
+  }
+ ]
+}
